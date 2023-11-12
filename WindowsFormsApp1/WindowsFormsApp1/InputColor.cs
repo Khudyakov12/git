@@ -23,6 +23,7 @@ namespace WindowsFormsApp1
         private void save_Click(object sender, EventArgs e)
         {
             int numericValue;
+            // new commit 
             if (int.TryParse(red.Text, out numericValue) & 
                 int.TryParse(green.Text, out numericValue) & 
                 int.TryParse(blue.Text, out numericValue) &
@@ -38,5 +39,7 @@ namespace WindowsFormsApp1
                 this.Close();
             }
         }
+
+
     }
 }

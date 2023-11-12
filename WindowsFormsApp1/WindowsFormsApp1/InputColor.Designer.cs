@@ -45,6 +45,7 @@
             this.red.Name = "red";
             this.red.Size = new System.Drawing.Size(59, 22);
             this.red.TabIndex = 0;
+            this.red.TextChanged += new System.EventHandler(this.red_TextChanged);
             // 
             // green
             // 
